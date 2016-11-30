@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace CodeSampleTests
 {
     [TestFixture]
-    public class PrimeToolsTest
+    public class PrimeToolsTests
     {
         [TestCase(-1, false)]
         [TestCase(0, false)]

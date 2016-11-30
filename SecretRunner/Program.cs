@@ -26,8 +26,7 @@ namespace SecretRunner
                 number = GetNumberFromConsole();
             }
 
-            var sample = new Sample();
-            var isAdditive = sample.IsSecretAdditiveForPrimeNumberPairsLessThan(number);
+            var isAdditive = Sample.IsSecretAdditiveForPrimeNumberPairsLessThan(number);
 
             Console.WriteLine("Secret(int number) is additive for all prime pairs less than {0}: {1}", number,
                 isAdditive);

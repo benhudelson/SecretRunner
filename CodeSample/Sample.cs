@@ -4,18 +4,9 @@ using System.Linq;
 
 namespace CodeSample
 {
-    public class Sample
+    public static class Sample
     {
-        public int Secret(int number)
-        {
-            if (number < 1000)
-            {
-                return number;
-            }
-            return number + 1;
-        }
-
-        public bool IsSecretAdditiveForPrimeNumberPairsLessThan(int number)
+        public static bool IsSecretAdditiveForPrimeNumberPairsLessThan(int number)
         {
             if (number < 4)
             {
@@ -40,10 +31,10 @@ namespace CodeSample
             return true;
         }
 
-        private bool IsAdditiveForXAndY(int x, int y)
+        private static bool IsAdditiveForXAndY(int x, int y)
         {
-            return Secret(x + y) == Secret(x) + Secret(y);
+            return HasSecretMethod.Secret(x + y) == HasSecretMethod.Secret(x) + HasSecretMethod.Secret(y);
         }
-        
+
     }
 }

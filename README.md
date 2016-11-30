@@ -7,8 +7,6 @@ The Secret() method is additive for all pairs of numbers whose sum is less than 
 # Instructions
 Build the SecretRunner project then run Secret.exe from the command line with a single parameter. 
 
-Try to input values less than 4.
-
 Try to input values less than 4. The result will be a prompt to input a valid number.
 
 Try values that cannot be parsed to Int32. The result will be a prompt to input a valid number.

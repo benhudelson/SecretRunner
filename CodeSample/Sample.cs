@@ -26,7 +26,6 @@ namespace CodeSample
                         return false;
                     }
                 }
-
             }
             return true;
         }

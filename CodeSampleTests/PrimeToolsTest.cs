@@ -20,7 +20,6 @@ namespace CodeSampleTests
             Assert.AreEqual(expected, result);
         }
 
-
         private static IEnumerable<PrimesLessThanTestValue> PrimesLessThanTestValues()
         {
             return new List<PrimesLessThanTestValue>()

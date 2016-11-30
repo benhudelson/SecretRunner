@@ -11,7 +11,7 @@ Try to input values less than 4. The result will be a prompt to input a valid nu
 
 Try values that cannot be parsed to Int32. The result will be a prompt to input a valid number.
 
-Try values greater than 3 but less than 504. The result swill be True.
+Try values greater than 3 but less than 504. The result will be True.
 
 Try values greater than greater than 503. The result will be False.
 

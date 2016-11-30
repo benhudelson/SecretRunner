@@ -35,7 +35,7 @@ namespace SecretRunner
         private static void SupplyInstructions()
         {
             Console.Clear();
-            Console.WriteLine("Usage: Check to see if Secret() is Additive for a given number.");
+            Console.WriteLine("Usage: Check to see if Secret() is additive for a given number.");
             Console.WriteLine("Please supply an Int32 number greater than 3:");
         }
 

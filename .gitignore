@@ -1,0 +1,7 @@
+CodeSample/obj/
+CodeSample/bin/
+CodeSampleTests/obj/
+CodeSampleTests/bin/
+SecretRunner/obj/
+SecretRunner/bin/
+packages

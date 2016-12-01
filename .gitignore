@@ -4,4 +4,5 @@ CodeSampleTests/obj/
 CodeSampleTests/bin/
 SecretRunner/obj/
 SecretRunner/bin/
+/.vs/
 packages

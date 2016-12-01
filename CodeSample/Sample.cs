@@ -12,10 +12,6 @@ namespace CodeSample
             {
                 throw new ArgumentOutOfRangeException("Valid input must be 4 or greater");
             }
-            if(number > Int32.MaxValue / 2)
-            {
-                throw new ArgumentOutOfRangeException("Valid input must less than 1,073,741,824");
-            }
             var primes = PrimeTools.PrimesLessThan(number);
             var count = primes.Count();
 

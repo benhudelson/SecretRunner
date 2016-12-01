@@ -21,7 +21,7 @@ namespace SecretRunner
                     number = GetNumberFromConsole();
                 }
             }
-            while (number < 4 || number > (Int32.MaxValue/2))
+            while (number < 4)
             {
                 number = GetNumberFromConsole();
             }
@@ -36,7 +36,7 @@ namespace SecretRunner
         {
             Console.Clear();
             Console.WriteLine("Usage: Check to see if Secret() is additive for a given number.");
-            Console.WriteLine("Please supply an Int32 number greater than 3 and less than 1,073,741,824:");
+            Console.WriteLine("Please supply an Int32 number greater than 3:");
         }
 
         private static int GetNumberFromConsole()

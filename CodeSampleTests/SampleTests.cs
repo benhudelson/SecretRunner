@@ -34,8 +34,6 @@ namespace CodeSampleTests
         [TestCase(1)]
         [TestCase(2)]
         [TestCase(3)]
-        [TestCase((Int32.MaxValue/2 + 1))]
-        [TestCase((Int32.MaxValue))]
         public void IsSecretAdditiveForPrimeNumbersLessThan_NumberLessThan5_ThrowsArgumentOutOfRangeException(int number)
         {
             Assert.Throws<ArgumentOutOfRangeException>(() => Sample.IsSecretAdditiveForPrimeNumberPairsLessThan(number));
